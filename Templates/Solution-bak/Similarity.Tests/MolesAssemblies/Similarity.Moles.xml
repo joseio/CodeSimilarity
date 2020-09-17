@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Similarity.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Moles.MProgram">
+            <summary>Mole type of <see cref="T:Program"/>
+            .</summary>
+        </member>
+        <member name="M:Global.Moles.MProgram.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Global.Moles.MProgram.#ctor(Program)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Global.Moles.MProgram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Global.Moles.MProgram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Global.Moles.MProgram.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Global.Moles.MProgram.Constructor">
+            <summary>Sets the mole of <see cref="M:Program.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Global.Moles.MProgram.PuzzleInt32Array">
+            <summary>Sets the mole of <see cref="M:Program.Puzzle(System.Int32[])"/>
+            </summary>
+        </member>
+        <member name="T:Global.Moles.MProgram.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Global.Moles.SProgram">
+            <summary>Stub type of <see cref="T:Program"/>
+            .</summary>
+        </member>
+        <member name="M:Global.Moles.SProgram.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Global.Moles.SProgram.InitializeStub">
+            <summary>Initializes a new instance of type SProgram</summary>
+        </member>
+        <member name="P:Global.Moles.SProgram.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Global.Moles.SProgram.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
